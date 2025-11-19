@@ -1,0 +1,8 @@
+body{font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji"}
+.text-otp{color: #52ae30!important}
+.size-25{font-size: 2.3rem;}
+.size-15{font-size: 1.5rem;}
+.icon {display: inline-flex;background: #eef6ea;padding: 4px;width: 4rem;height: 4rem;border-radius: 15px;}
+.box-inner{border-radius: 15px;}
+*[data-type]{cursor: pointer;}
+#protected-content { display:none; }
