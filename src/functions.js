@@ -31,7 +31,7 @@
     const USERS = [
   {user: "robert.hohol@otpip.hu", hash: "4829518b851dcb66d3aff29be3bb32723bf02eac3df46ac666dbb3e1abf91821"},
   {user: "angela.erzsebet.tamus@otpip.hu",   hash: "4e99155dab6b8c78234d6f24badcca658c0610104e50d8d76ef5c78cf924dae1"},
-  {user: "lilla.gorombei", hash "559c1d4d9a5d3d9bb5af982d31910bbbe781cc1c2c55aa15e04c11d04e3264b6"},
+  {user: "lilla.gorombei", hash: "559c1d4d9a5d3d9bb5af982d31910bbbe781cc1c2c55aa15e04c11d04e3264b6"},
 ];
 /* ------------------------------------------------------------------------------------------ */
 
