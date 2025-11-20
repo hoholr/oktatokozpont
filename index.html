@@ -7,7 +7,6 @@
   <meta name="author" content="">
   <title>Oktatóközpont - OTP Ingatlanpont, Jászberény, Gyöngyösi út</title>
   <!-- Bootstrap core CSS -->
-  <link rel="icon" type="image/png" href="src/favicon.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="src/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -20,11 +19,11 @@
       <div class="container">
         <a class="navbar-brand d-flex" href="/oktatokozpont/">
           <img src="src/favicon.png" style="height:5rem;">
-          <div class="d-block my-auto ml-3"><h1 class="h4 mb-0">Oktatóközpont</h1><p class="font-weight-normal small mb-0 text-secondary">OTP Ingatlanpont, Jászberény, Gyöngyösi út 36.</p></div>
+          <div class="d-block my-auto ml-3"><h1 class="h4 mb-0">Oktatóközpont</h1><p class="font-weight-normal small mb-0 text-secondary">OTP Ingatlanpont, Jászberény, <br class="d-md-none" />Gyöngyösi út</p></div>
         </a>
         <div class="ml-auto d-flex">
-          <span id="whoami" class="mr-3 text-muted my-auto"></span>
-          <button id="logoutBtn" class="btn btn-outline-danger btn-sm my-auto">Kijelentkezés</button>
+          <span id="whoami" class="mr-3 text-muted my-auto d-none d-md-inline"></span>
+          <button id="logoutBtn" class="btn btn-outline-danger btn-sm my-auto"><span class="d-none d-md-block">Kijelentkezés</span><i class="bi bi-door-open d-md-none"></i></button>
         </div>
 
       </div>
